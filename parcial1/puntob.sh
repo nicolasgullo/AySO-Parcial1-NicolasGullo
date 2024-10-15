@@ -44,6 +44,7 @@
 	sudo mkfs.ext3 /dev/sdc5
 
 	echo "Montando particiones..."
+	sudo mkdir /mnt
 	sudo mount /dev/sdc1 /mnt
 	sudo mount /dev/sdc2 /mnt
 	sudo mount /dev/sdc3 /mnt
