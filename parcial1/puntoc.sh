@@ -15,9 +15,9 @@
 	sudo usermod -aG grupoanalistas analistas
 	sudo usermod -aG grupodisenadores disenadores
 
-	sudo chmod -R 750 /Examenes-UTN/alumno_1
-	sudo chmod -R 760 /Examenes-UTN/alumno_2
-	sudo chmod -R 700 /Examenes-UTN/alumno_3
-	sudo chmod -R 775 /Examenes-UTN/profesores
+	sudo chmod -R 750 $HOME/AySO-Parcial1-NicolasGullo/parcial1/Examenes-UTN/alumno_1
+	sudo chmod -R 760 $HOME/AySO-Parcial1-NicolasGullo/parcial1/Examenes-UTN/alumno_2
+	sudo chmod -R 700 $HOME/AySO-Parcial1-NicolasGullo/parcial1/Examenes-UTN/alumno_3
+	sudo chmod -R 775 $HOME/AySO-Parcial1-NicolasGullo/parcial1/Examenes-UTN/profesores
 	
-	whoami > /AySO-Parcial1-NicolasGullo/parcial1/validar.txt
+	whoami > $HOME/AySO-Parcial1-NicolasGullo/parcial1/validar.txt
